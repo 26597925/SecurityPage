@@ -1,3 +1,139 @@
 #拆轮子系列--okhttp
 http://blog.csdn.net/chenzujie/article/details/46994073
 Tips：get，post，chache，cancle。
+
+
+
+腾讯手游安全部门
+反外挂---对APK整体保护，so文件保护和SDK保护。加固后的游戏反编译资源难度大增
+，外挂，私服构建难度也会增加，有助于从根源处抵制外挂
+腾讯御安全加固   ---crash率比较低
+
+
+
+
+
+
+
+
+http://www.ichunqiu.com/career/263/51775
+------------29日
+
+#4种常见的攻防对抗
+xml混淆
+asset加密  
+反射替换        脚本
+字符串加密  
+名字替换   
+
+
+#apk
+Application :attachBaseContext()
+判断apk是否运行在主线程
+ private boolean isMainProcess() {
+        ActivityManager am = (ActivityManager) getSystemService(ACTIVITY_SERVICE);//app运行状态管理权限
+//        List<ActivityManager.RunningAppProcessInfo> info= am.getRunningAppProcesses();
+        int pid = android.os.Process.myPid();//当前运行时的进程id
+        Log.d(TAG,"pid="+pid);
+        String packageName = getPackageName();
+        for (ActivityManager.RunningAppProcessInfo info : am.getRunningAppProcesses()) {
+            Log.d(TAG,"info.pid="+info.pid);
+            if (info.pid == pid && packageName.equals(info.processName)) {
+                return true;
+            }
+        }
+        return false;
+    }
+攻防对抗和安全技术的发展
+
+
+自定义application
+
+1.Application相当于是单列模式
+2.Uiutils工具类
+3.UI结构
+Actionbar
+PagerTab（自定义控件）
+Fragment
+4.
+
+
+
+一句话木马是什么？A < ?php assert ($_POST(value));?>
+B <%execute(request("value"))%>
+C <?php @eval ($_POST(value)):?>
+D<%if(request.getParameter("!")!=null)
+(newjavio.FileOutputStream(application.getRealPath("\\")
++ request.getParmeter("!"))).write (request.getParameter("t").getByte())):%>
+
+DDOS攻击
+WSI是PHP注入工具。
+
+
+
+
+获取DNS记录
+dig/nslookup
+追踪路由 traceroute
+who linux登录的用户数目
+
+tail倒序查看
+cat顺序查看
+
+代理修改web页面的内容---firebug
+
+hackbar--post
+Base64编码和解码
+Hackbar 是用来进行sql注入、测试XSS和加解密字符串的。
+可以用来快速构建一个HTTP请求（GET/POST）等。
+但是不能拦截和修改HTTP数据包。
+ Metasploit 。
+ 它为集成的漏洞攻击平台，具有多种攻击载荷和shell。
+但是无法提供拦截和修改http数据包。
+Burpsuite是可以通过设置浏览器代理进行网络渗透的，用于攻击Web应用的集成平台。
+可以进行拦截和修改HTTP数据包。
+Sqlmap  是用来进行sql注入，获取数据库信息和获操作系统信息，
+甚至注入后门webshell的，但是不能拦截和修改HTTP数据包。
+
+
+
+
+
+
+协议：
+icmp：一种用于在IP主机、路由器之间传递控制消息。
+控制消息是指网络通不通、主机是否可达、路由是否可用等网络本身的消息。
+这些控制消息虽然并不传输用户数据，但是对于用户数据的传递起着重要的作用。
+eg：ping
+
+telnet：是Internet远程登陆服务的标准协议和主要方式。
+
+
+
+
+
+
+漏洞扫描的工具
+
+web漏洞：
+
+ IBM appscan 是国外IBM安全公司的一款非常厉害的安全漏洞扫描产品，
+能够扫描各种生产环境的WEB，也就是说它也可以进行自动化web 漏洞扫描。
+
+ AWVS 是业界非常推荐的漏洞扫描神器，它拥有数目非常多而且最强大的漏洞检测脚本
+，国内多数人使用破解版，它可以进行自动化web漏洞扫描。
+
+
+Namp：端口扫描
+ Nmap是一款网络端口扫描工具，可以扫描各种端口及其服务甚至是系统漏洞检测，从它的NSE脚本可以看到它也可以进行WEB漏洞扫描，
+但是需要复杂的配置命令，故它不能进行自动化web漏洞扫描。
+
+
+
+Chkrootkit：rootkit扫描
+1. MD5校验测试, 检测任何文件是否改动.
+2. 检测rootkits使用的二进制和系统工具文件.
+3. 检测特洛伊木马程序的特征码.
+4. 检测大多常用程序的文件异常属性.
+5. 执行一些系统相关的测试 - 因为rootkit hunter可支持多个系统平台.
+6. 扫描任何混杂模式下的接口和后门程序常用的端口.
