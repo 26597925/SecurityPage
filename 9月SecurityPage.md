@@ -15,3 +15,22 @@ http://download.csdn.net/download/behappy1987/7122875
 
 
 #dexclassloader
+    不是普通类怎么办？
+    
+    系统组件如何接收回调？
+    
+    如何加载资源？
+
+    PackageInfo处理？
+
+    Resources的处理？
+
+    Assets的处理？
+
+
+#dex分包
+原因一个dex里面方法数目不能超过65565
+
+或者一个dex文件不能超过5MB
+
+#xposed
