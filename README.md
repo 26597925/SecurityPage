@@ -1,4 +1,3 @@
-#android学习记录
 
 ###什么是opcode？
 在编译的时候Assembler会扫描整个源代码
