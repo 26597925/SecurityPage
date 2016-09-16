@@ -21,3 +21,20 @@ v0,v1,v2  p0(th is),p1,p2,p3
 主要的反编译器
 BakSmail
 Dedexer
+
+
+
+#dex文件结构
+魔数字段 magic 4个字节
+标识dex文件的，虚拟机可用此来识别
+
+
+#校验码字段
+校验完整性，是否被人修改过CRC32
+java中可用java.util.zip.Adler32
+
+#SHA-1签名字段
+作为魔数和校验字段的补充，20个字节
+作为双重校验机制
+
+#map_off字段
