@@ -56,7 +56,8 @@ login--》打开safephone的homeactivity失败
 
 
 
-
+##正常dexclassloader加载的流程会有一个DexOpt产生odex过程
+底层c语言也是能解析dex文件的
 
 
 
