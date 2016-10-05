@@ -38,3 +38,6 @@ java中可用java.util.zip.Adler32
 作为双重校验机制
 
 #map_off字段
+
+
+
