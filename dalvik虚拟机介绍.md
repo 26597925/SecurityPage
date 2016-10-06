@@ -41,3 +41,4 @@ java中可用java.util.zip.Adler32
 
 
 
+##Uleb  变长unsigend  int
