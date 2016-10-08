@@ -141,7 +141,13 @@ APP_PLATFORM :=android-14   #解决警告
 
 再看c如何调java这边的函数
 找到项目支持的最小的ndk版本的include
+Go to Project Properties->C/C++ General->Paths and Symbols.
 
+Select Include tab and click on Add button right side of window
+Choose include directory from File system
+For example: C:\Program Files (x86)\Android\android-sdk\NDK\android-ndk-r10\platforms\android-L\arch-arm\usr\include.
+
+It will ask you if you want to rebuild, click on yes...Done
 
 linux下的一秒就是1
 sleep（1）；
