@@ -158,3 +158,41 @@ ps 看进程然后看到父进程变为1
 思路二：守护进程
 ondestory（）---》里面写startservice（）监听一些系统的广播，开机广播等---rom 去广播权限即不行
 进程互相守护：---同时杀死 就不行
+
+
+
+as步骤：
+修改gradle文件 开启jni支持
+先修改
+gradle-wrapper
+
+再看build.gradle
+Error:Minimum supported Gradle version is 2.14.1. Current version is 2.10. If using the gradle wrapper, try editing the distributionUrl in C:\Users\Jay-Tang\Desktop\androidproject\Dvm\gradle\wrapper\gradle-wrapper.properties to gradle-2.14.1-all.zip
+
+new jni folder
+
+
+mainactivity里面新建一个native函数
+然后create
+
+
+配置位置：http://tools.android.com/tech-docs/new-build-system/gradle-experimental
+
+  applicationId "com.example.jay_tang.dvm"
+            minSdkVersion.apilevel 16
+            targetSdkVersion.apilevel 24
+            versionCode 1
+            versionName "1.0"
+
+jclass(static) jobject(普通函数) 
+
+hello3(){
+
+}
+
+static int registerNativeMethods(){
+
+
+}
+
+static 
