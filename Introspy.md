@@ -1,4 +1,4 @@
-主要是学习Instrospy进行黑盒测试
+主要是学习Instrospy-android进行黑盒测试
 #先安装cydia substrate框架
 然后分别再装 config和Core这两个apk
 ![](http://i.imgur.com/sut80ss.png)
