@@ -183,7 +183,7 @@ mainactivity里面新建一个native函数
             targetSdkVersion.apilevel 24
             versionCode 1
             versionName "1.0"
-
+##动态注册
 jclass(static) jobject(普通函数) 
 
 hello3(){
@@ -195,6 +195,7 @@ static int registerNativeMethods(){
 
 }
 
+<<<<<<< HEAD
 static 
 
 先 到src目录下
@@ -253,3 +254,8 @@ JNIEXPORT jint JNICALL Java_com_example_tools_utils_NativeRuntime_stopService
 }
 #endif
 #endif
+=======
+##jni里面c和cpp的区别
+C++里return env->NewStringUTF("Hello from JNI !");  
+C里面return (*env)->NewStringUTF(env, "Hello from JNI !");
+>>>>>>> origin/master
