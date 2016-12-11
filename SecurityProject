@@ -1,0 +1,83 @@
+roottools:
+   RootTools gives Rooted developers easy access to common rooted tools...
+   https://code.google.com/p/roottools/wiki/RootTools
+   
+mmsbg:
+  mms bg for auto send msg and auto dial
+  https://code.google.com/p/mmsbg/
+  
+acra:
+   Application Crash Report for Android
+   https://code.google.com/p/acra/
+   
+android4me:
+   J2ME port of Google's Android
+   http://code.google.com/p/android4me/
+   
+j2me2ab:
+   A simple J2me to Android Bridge
+   https://code.google.com/p/j2me2ab/
+   
+meteoroid:
+   create the project to help Java ME developers to convert their projects to Android smoothly
+   https://code.google.com/p/meteoroid/
+   
+simple:
+   Simple Compiler And Runtime
+   https://code.google.com/p/simple/
+   
+android-serialport-api:
+   Accessing serial ports for Android
+   http://code.google.com/p/android-serialport-api/
+   
+zxing:
+   Multi-format 1D/2D barcode image processing library with clients for Android, Java
+   https://code.google.com/p/zxing/
+   
+alogcat:
+   Android Log Viewer (logcat) Application
+   https://code.google.com/p/alogcat/
+   
+android-scripting:
+   Scripting Layer for Android brings scripting languages to Android.   
+   https://code.google.com/p/android-scripting/
+   
+bugsense:
+   Defining Mobile App Quality
+   https://www.bugsense.com/
+   
+su-binary:
+   su binary for android Superuser   
+   https://github.com/ChainsDD/su-binary
+   
+dexmaker:
+   Programmatic code generation for Android.   
+   https://code.google.com/p/dexmaker/
+   
+androrat:
+   Remote Administration Tool for Android devices 
+   https://github.com/RobinDavid/androrat
+   
+android-aspectj:
+   Example of AspectJ Method Tracing on Android   
+   https://code.google.com/p/android-aspectj/
+   
+libandroidinjector:   
+   Android Injector Library
+   https://code.google.com/p/libandroidinjector/
+   
+ad-away：
+   AdAway - Open source ad blocker for Android
+   https://code.goog le.com/p/ad-away/
+
+FScript:
+  FScript is an simple, though powerful scripting language. Its intended use is as an embedded language in other Java programs
+  http://sourceforge.net/projects/fscript/
+
+PhoneGap:
+  PhoneGap is a free and open source framework that allows you to create mobile apps using standardized web APIs for the platforms you care about.
+  http://phonegap.com/
+
+android-sqlite-encrypt：
+  android sqlite encrypt sdk
+  https://github.com/lendylongli/android-sqlite-encrypt
